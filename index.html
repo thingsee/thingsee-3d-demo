@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Thingsee 3D demo</title>
+  <meta charset="utf-8" />
+  <link rel='stylesheet' href='style/site.css' type='text/css'>
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+</head>
+<body>
+  <div class="message-indicator"></div>
+  <div class="info-txt"></div>
+  <div class="top">
+    <div class="map-wrap">
+      <div id="map"></div>
+      <div class="map-stats">
+        <div class="speed"></div>
+        <div class="alt"></div>
+      </div>
+    </div>
+    <div class="acc-wrap">
+      <div class="title">Accelerometer:</div>
+      <div class="x-axis axis"></div>
+      <div class="value x">X:</div>
+      <div class="y-axis axis"></div>
+      <div class="value y">Y:</div>
+      <div class="z-axis axis"></div>
+      <div class="value z">Z:</div>
+    </div>
+    <div id="container">
+      <div class="impact-box">(!)</div>
+    </div>
+  </div>
+  <div class="name-tag"></div>
+  <div class="bottom">
+    <div class="sensor-wrap">
+      <div class="sensor temp">
+        <div class="text">Temp:</div>
+        <div class="value">N/A</div>
+        <div class="btm-text"></div>
+      </div>
+      <div class="sensor hum">
+        <div class="text">Hum:</div>
+        <div class="value">N/A</div>
+        <div class="btm-text"></div>
+      </div>
+      <div class="sensor pressure">
+        <div class="text">Pressure:</div>
+        <div class="value">N/A</div>
+        <div class="btm-text"></div>
+      </div>
+      <div class="sensor battery">
+        <div class="text">Battery:</div>
+        <div class="value">N/A</div>
+        <div class="btm-text"></div>
+      </div>
+    </div>
+  </div>
+  <script src="lib/jquery-2.1.1.min.js"></script>
+  <script src="lib/three.min.js"></script>
+  <script src="lib/TweenMax.min.js"></script>
+  <script src="lib/OBJLoader.js"></script>
+  <script src="lib/lodash.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
